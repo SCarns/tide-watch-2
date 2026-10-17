@@ -1,6 +1,6 @@
 # Tide Watch 2
 
-The nearest tide reporting station is miles away? In steps Tide Watch, the SignalK plugin that uses the depth data already on your boat to determine the tides for your location. Move from one location to another? Tide Watch knows and resets for your new location. Going back? Tide Watch remembers. Works at anchor, tide to a dock, or any stationary place where the movement is vertical instead of horizontal.
+The nearest tide reporting station is miles away? In steps Tide Watch, the SignalK plugin that uses the depth data already on your boat to track water-level changes and estimate upcoming highs and lows for your location. Move from one location to another? Tide Watch knows and resets for your new location. Going back? Tide Watch remembers. Works at anchor, tied to a dock, or any stationary place where the movement is vertical instead of horizontal.
 
 Tide Watch is an offline Signal K tide instrument with depth history, display smoothing, and Day/Night/Red appearance. Published package name: **`tide-watch-2`**. Version **1.3.0** follows the installed Tide Watch 1.2.1 build.
 
