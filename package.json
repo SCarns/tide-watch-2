@@ -1,0 +1,67 @@
+{
+  "name": "tide-watch-2",
+  "version": "1.3.0",
+  "description": "Tide Watch 2: original Signal K tide analysis with offline depth history and adjustable display smoothing",
+  "main": "index.js",
+  "dependencies": {
+    "baconjs": "^1.0.1",
+    "binary-parser-encoder": "^1.5.3",
+    "geolib": "3.3.4",
+    "signalk-plugin-base": "^1.4.0",
+    "structured-binary-file": "^1.0.1"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SCarns/tide-watch-2.git"
+  },
+  "keywords": [
+    "signalk-node-server-plugin",
+    "signalk-webapp",
+    "signalk",
+    "tide",
+    "prediction",
+    "nmea"
+  ],
+  "author": "Joel Kozikowski",
+  "license": "ISC",
+  "bundleDependencies": [
+    "baconjs",
+    "binary-parser-encoder",
+    "geolib",
+    "signalk-plugin-base",
+    "structured-binary-file"
+  ],
+  "files": [
+    "index.js",
+    "OriginalPlugin.js",
+    "TideAnalysis.js",
+    "DBDepthLog.js",
+    "LocationManager.js",
+    "public",
+    "README.md",
+    "BASELINE-README.md",
+    "LICENSE",
+    "NOTICE",
+    "CHANGELOG.md",
+    "docs"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://github.com/SCarns/tide-watch-2#readme",
+  "bugs": {
+    "url": "https://github.com/SCarns/tide-watch-2/issues"
+  },
+  "contributors": [
+    {
+      "name": "SCarns"
+    }
+  ],
+  "signalk": {
+    "displayName": "Tide Watch 2",
+    "appIcon": "assets/tide-watch-2.svg"
+  }
+}

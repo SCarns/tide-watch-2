@@ -1,0 +1,14 @@
+Tide Watch 2 is an independent continuation of signalk-tide-watch by Joel Kozikowski.
+Original upstream: https://github.com/joelkoz/signalk-tide-watch
+Original baseline commit: 3436d24189441a484a3c9dbbab137ef657860f39
+License: ISC
+
+The source baseline for this release is the user's installed 1.2.1 build, copied
+from TBD. OriginalPlugin.js, TideAnalysis.js, DBDepthLog.js and LocationManager.js
+are unchanged from that installed build. OriginalPlugin.js includes the previously
+introduced source-less depth-input compatibility guard; that guard is retained.
+
+Independent display changes by SCarns, 2026: offline history chart, smoothing,
+units, themes and presentation adapter. Version 1.3.0 adds configurable 2–6-hour
+display smoothing, an icon, request handling fixes and independent release metadata.
+No tide prediction or detection rule is changed in 1.3.0.
