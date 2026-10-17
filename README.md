@@ -1,6 +1,8 @@
 # Tide Watch 2
 
-An offline Signal K tide instrument with depth history, display smoothing, and Day/Night/Red appearance. Published package name: **`tide-watch-2`**. Version **1.3.0** follows the installed Tide Watch 1.2.1 build.
+The nearest tide reporting station is miles away? In steps Tide Watch, the SignalK plugin that uses the depth data already on your boat to determine the tides for your location. Move from one location to another? Tide Watch knows and resets for your new location. Going back? Tide Watch remembers. Works at anchor, tide to a dock, or any stationary place where the movement is vertical instead of horizontal.
+
+Tide Watch is an offline Signal K tide instrument with depth history, display smoothing, and Day/Night/Red appearance. Published package name: **`tide-watch-2`**. Version **1.3.0** follows the installed Tide Watch 1.2.1 build.
 
 Derived from **Joel Kozikowski’s [signalk-tide-watch](https://github.com/joelkoz/signalk-tide-watch)**, upstream commit `3436d24189441a484a3c9dbbab137ef657860f39`. Original tide calculations are unchanged. This release preserves the installed 1.2.1 `OriginalPlugin.js`, `TideAnalysis.js`, `DBDepthLog.js` and `LocationManager.js` byte for byte, including the existing compatibility fix for depth events without source metadata. See [NOTICE](NOTICE) and the historical [baseline notes](BASELINE-README.md).
 
